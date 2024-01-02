@@ -1,0 +1,46 @@
+.ver-nav {
+    width: 25%;
+    background-color: rgb(226, 225, 223);
+    height: 100%;
+    overflow: scroll;
+    position: fixed;
+    top: 7%;
+    z-index: 4;
+    float: left;
+    box-sizing: border-box;
+} 
+.ver-nav button {
+    border: none;
+    border-radius: 0%;
+    padding: 10px;
+    margin: 0;
+    color: black;
+    float: left;
+    clear: left;
+    background-color: rgb(226, 225, 223);
+    width: 100%;
+    text-align: left;
+
+}
+.ver-nav button:hover {
+    background-color: rgb(189, 188, 186);
+}
+.ver-nav .active1 {
+  background-color: rgb(9, 82, 9); 
+}
+.ver-nav .active1:hover {
+    background-color: rgb(8, 240, 8); 
+}
+.dom {
+    width: 100%;
+    background-color: rgb(212, 208, 208);
+    position: fixed;
+    left: 25%;
+    top: 7.5%;
+    z-index: 4;
+    text-align: center;
+    border-top: solid rgb(250, 240, 230) 1px;
+    padding: 5px;
+    height: 9%;
+    
+}

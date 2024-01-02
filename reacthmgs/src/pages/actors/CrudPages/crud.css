@@ -1,0 +1,52 @@
+.employ-page {/* in the add page*/
+    width: 70%;
+    box-sizing: border-box;
+    float: right;
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    z-index: 9;
+    overflow: scroll;
+    background-color: #8cac8f;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+}
+/* css format for the crud forms */
+.headerAdd {/* in add page*/
+    border-bottom: #8cac8f solid;
+    background-color: cadetblue;
+    padding: 10%;
+    border-radius: 1%;
+}
+input, textarea {
+    margin:0% 15% 0% 15%;
+    padding: 1%;
+    width: 70%;
+    border: none;
+
+}
+label {
+    display: grid;
+    margin:0% 15% 0% 15%;
+    padding: 1%;
+    width: 70%;
+    background-color: beige;
+}
+.formBody {
+    background-color: bisque;
+    border-radius: 1%;
+    margin: 0%;
+    padding: 3%;
+}
+.reg {
+    border-right: #8cac8f inset;
+    border-left: #78927a inset;
+    border-radius:1 ;
+
+}
+.buttom {
+    margin: 5%;
+    margin-left: 30%;
+}

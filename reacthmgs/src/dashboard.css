@@ -1,0 +1,14 @@
+.dashboard {
+    width: 75%;
+    box-sizing: border-box;
+    float: right;
+    position: fixed;
+    top: 12%;
+    left: 25%;
+    z-index: -2;
+    overflow: scroll;
+    background-color: #f6fafa;
+    padding: 10px;
+    height: 90%;
+
+}
